@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Website Layout</title>
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link href="home-style.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="#"><img src="logo.jpg"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarResponsive">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="home.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="About-us.html">About</a>
+				</li>
+                    <li class="nav-item">
+					<a class="nav-link" href="#">Dash</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Services</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Team</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Contact Us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img class="image" src="background.png">
+			<div class="carousel-caption">
+				<h1 class="display-2">Admission</h1>
+				<h3>Information to admit into your desired college</h3>
+				<button type="button" class="btn btn-outline-light btn-lg">LIST</button>
+				<button type="button" class="btn btn-primary btn-lg">Get Started</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img class="image" src="s1.jpg">
+		</div>
+		<div class="carousel-item">
+			<img class="image" src="s2.jpeg">
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<div class="container-fluid" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">Web application that allows students to gain knowledge on the required scores to apply for their desired Universities.
+               </p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary
+			btn-lg">Search</button></a>
+		</div>
+	</div>
+</div>
+
+<!--- Welcome Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">University</h1>
+		</div>
+		<hr>
+		<div class="col-12">
+			<p class="lead">WELCOME!
+                    Choose the universities that best fit your credentials 
+                    and which is the most suitable for you.
+                    Apply for Sholarships.
+               </p>
+		</div>
+	</div>
+</div>
+
+
+<!--- Two Column Section -->
+<div class="container-fluid padding"data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+	<div class="row padding">
+		<div class="col-md-12 col-lg-6">
+			<h2>About Us</h2>
+			<p>In today fast-paced world, the pursuit of higher education stands as a pivotal milestone in
+                    the journey of self-discovery and career advancement.</p>
+               <p> With an abundance of colleges and
+                    universities offering diverse programs and opportunities, the task of finding the perfect fit can
+                    seem daunting. This is how we came to form an idea to help the eager students find the right
+                    university for them to apply to.</p>
+			
+				<br>
+				<a href="About-us.html" class="btn btn-primary">Learn More</a>
+		</div>
+		<div class="col-lg-6">
+			<img src="img/desk.png" class="img-fluid">
+		</div>
+	</div>
+</div>
+
+<hr class="my-4">
+
+
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Contact Us</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="#"><i class="fab fa-facebook"></i></a>
+			<a href="#"><i class="fab fa-twitter"></i></a>
+			<a href="#"><i class="fab fa-google-plus-g"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding" data-aos="fade-up"
+		data-aos-offset="200"
+		data-aos-delay="50"
+		data-aos-duration="1000">
+		<div class="row text-center">
+			<div class="col-md-4 pt-0">
+				<div class="footer-image">
+				<img src="logo.jpg"></div>
+				<hr class="light">
+				<p>555-555-5555</p>
+				<p>email@hhemail.com</p>
+				<p>69 Street Name</p>
+				<p>City, State, 888</p>
+			</div>
+
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service Area</h5>
+				<hr class="light">
+				<p>City, State, 900</p>
+				<p>City, State, 800</p>
+				<p>City, State, 700</p>
+				<p>City, State, 600</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy;Easy Admission </h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+
+</body>
+</html>
