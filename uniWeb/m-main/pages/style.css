@@ -1,0 +1,67 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: 'Poppins',sans-serif;
+     box-sizing: border-box;
+}
+
+.back{
+     width: 100%;
+     min-height: 100vh;
+     background: #e7d7f5;
+     color: #2e0e4b ;
+}
+nav{
+     background: #1c0544;
+     width: 100%;
+     padding: 10 px 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: relative;
+}
+.logo{
+     width: 120%;
+}
+
+.user-pic{
+     width: 40px;
+     border-radius: 50%;
+     cursor: pointer;
+     margin-left: 30px;
+}
+
+nav ul{
+     width: 100%;
+     text-align: right;
+}
+
+nav ul li{
+     display: inline-block;
+     list-style: none;
+     margin: 10px 20px;
+}
+
+nav ul li a{
+     color:  #e7d7f5;
+     text-decoration: none;
+}
+.sub-menu-wrap{
+     position: absolute;
+     top: 100%;
+     right: 10%;
+     width: 320px;
+}
+
+.sub-menu{
+     background: #e7d7f5;
+     padding: 20px;
+     margin: 10px;
+}
+
+.user-info{
+     display: flex;
+     align-items: center;
+}
+
+.us

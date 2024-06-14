@@ -1,0 +1,90 @@
+@import url('https //fonts.googleapis.com/css family=poppins');
+
+*{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins',sans-serif;
+}
+
+body{
+     background: #e7d7f5;
+}
+
+/* loginForm css*/
+.container{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 90vh;
+}
+.box{
+background:#e9e9e9;;
+display: flex;
+flex-direction: column;
+padding: 25px  25px;
+border-radius:  20px;
+box-shadow: 0 0 5px 0 #3e205d,
+                    0 5px 20px -20px #5e4775;
+}
+
+.form-box{
+     width: 400px;
+     margin: 0px 10px;
+}
+
+.form-box header {
+     font-size: 30px;
+     color: #2e0e4b ;
+     font-weight: 600;
+     padding-bottom: 10px;
+     border-bottom: 1px solid #2e0e4b;
+     margin-bottom: 10px;
+}
+
+.form-box form .field{
+     display: flex;
+     margin-bottom: 10px;
+     flex-direction: column;
+}
+
+.form-box .field input{
+     height: 40px;
+     width: 100%;
+     font-size: 16px;
+     padding: 0 10px;
+     border-radius: 15px;
+     border: 1px solid #e7d7f5;
+     outline: none;
+}
+
+.btn button{
+     height: 35px;
+     background: #7028b8;
+     border: 0;
+     border-radius: 15px;
+     color :#e9e9e9;
+     font-size: 15px;
+     cursor: pointer;
+     transition: all .6s;
+     margin-top: 10px;
+     padding: 0px 10 px;
+     width: 100%;
+}
+.btn button:hover{
+     background: #280860;
+     color: #ffffff;
+
+     font-size: 15px;
+     cursor: pointer;
+     
+ }
+
+ 
+ .links{
+     margin-bottom: 15px;
+ }
+
+ .links :hover{
+     color: #d48cb8;
+ }
